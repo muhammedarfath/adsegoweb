@@ -1,0 +1,822 @@
+.elementor-761 .elementor-element.elementor-element-ec68d9c {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    --border-radius: 0px 0px 60px 60px;
+    --margin-top: 0px;
+    --margin-bottom: 150px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 200px;
+    --padding-bottom: 100px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-ec68d9c:not(.elementor-motion-effects-element-type-background),
+.elementor-761 .elementor-element.elementor-element-ec68d9c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at top center, var(--e-global-color-35877dd) 0%, var(--e-global-color-1a97a32) 100%);
+}
+
+.elementor-761 .elementor-element.elementor-element-4d2d04d {
+    --display: flex;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-size: var(--e-global-typography-primary-font-size);
+    font-weight: var(--e-global-typography-primary-font-weight);
+    text-transform: var(--e-global-typography-primary-text-transform);
+    text-decoration: var(--e-global-typography-primary-text-decoration);
+    line-height: var(--e-global-typography-primary-line-height);
+    letter-spacing: var(--e-global-typography-primary-letter-spacing);
+    color: var(--e-global-color-primary);
+}
+
+.elementor-761 .elementor-element.elementor-element-0af0975>.elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-0af0975 {
+    text-align: center;
+}
+
+.elementor-761 .elementor-element.elementor-element-0af0975 .elementor-heading-title {
+    font-family: var(--e-global-typography-a59a5c6-font-family), Sans-serif;
+    font-size: var(--e-global-typography-a59a5c6-font-size);
+    font-weight: var(--e-global-typography-a59a5c6-font-weight);
+    text-transform: var(--e-global-typography-a59a5c6-text-transform);
+    text-decoration: var(--e-global-typography-a59a5c6-text-decoration);
+    line-height: var(--e-global-typography-a59a5c6-line-height);
+    color: var(--e-global-color-accent);
+}
+
+.elementor-widget-text-editor {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    text-transform: var(--e-global-typography-text-text-transform);
+    text-decoration: var(--e-global-typography-text-text-decoration);
+    line-height: var(--e-global-typography-text-line-height);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: var(--e-global-color-primary);
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+    color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary);
+}
+
+.elementor-761 .elementor-element.elementor-element-5cfbb63>.elementor-widget-container {
+    padding: 0px 400px 0px 400px;
+}
+
+.elementor-761 .elementor-element.elementor-element-5cfbb63 {
+    text-align: center;
+    color: var(--e-global-color-93c97b0);
+    font-family: var(--e-global-typography-3a5771a-font-family), Sans-serif;
+    font-size: var(--e-global-typography-3a5771a-font-size);
+    font-weight: var(--e-global-typography-3a5771a-font-weight);
+    text-transform: var(--e-global-typography-3a5771a-text-transform);
+    text-decoration: var(--e-global-typography-3a5771a-text-decoration);
+    line-height: var(--e-global-typography-3a5771a-line-height);
+}
+
+.elementor-761 .elementor-element.elementor-element-b80d882 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --margin-top: 150px;
+    --margin-bottom: 150px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-886fdb9 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --gap: 60px 60px;
+    --row-gap: 60px;
+    --column-gap: 60px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-c1d931e {
+    --display: flex;
+    --gap: 10px 10px;
+    --row-gap: 10px;
+    --column-gap: 10px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-c1d931e.e-con {
+    --flex-grow: 0;
+    --flex-shrink: 0;
+}
+
+.elementor-761 .elementor-element.elementor-element-6054dc5>.elementor-widget-container {
+    background-color: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 8px 20px 8px 20px;
+    background-image: radial-gradient(at center center, var(--e-global-color-35877dd) 0%, #F2295B00 100%);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-3d70886);
+    border-radius: 200px 200px 200px 200px;
+}
+
+.elementor-761 .elementor-element.elementor-element-6054dc5.elementor-element {
+    --align-self: flex-start;
+}
+
+.elementor-761 .elementor-element.elementor-element-6054dc5 {
+    text-align: center;
+}
+
+.elementor-761 .elementor-element.elementor-element-6054dc5 .elementor-heading-title {
+    font-family: var(--e-global-typography-73118af-font-family), Sans-serif;
+    font-size: var(--e-global-typography-73118af-font-size);
+    font-weight: var(--e-global-typography-73118af-font-weight);
+    text-transform: var(--e-global-typography-73118af-text-transform);
+    text-decoration: var(--e-global-typography-73118af-text-decoration);
+    line-height: var(--e-global-typography-73118af-line-height);
+    color: var(--e-global-color-text);
+}
+
+.elementor-761 .elementor-element.elementor-element-587995f .elementor-heading-title {
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-size: var(--e-global-typography-secondary-font-size);
+    font-weight: var(--e-global-typography-secondary-font-weight);
+    text-transform: var(--e-global-typography-secondary-text-transform);
+    text-decoration: var(--e-global-typography-secondary-text-decoration);
+    line-height: var(--e-global-typography-secondary-line-height);
+    color: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-8b06356>.elementor-widget-container {
+    padding: 0px 250px 0px 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-8b06356 {
+    color: var(--e-global-color-93c97b0);
+}
+
+.elementor-761 .elementor-element.elementor-element-3f8bc5d {
+    --display: flex;
+    --justify-content: flex-end;
+    --padding-top: 0px;
+    --padding-bottom: 8px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-88e451f {
+    --display: flex;
+    --gap: 30px 30px;
+    --row-gap: 30px;
+    --column-gap: 30px;
+    --margin-top: 30px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box {
+    background-color: var(--e-global-color-0bd20d1);
+    margin: 0px 0px 0px 0px;
+    padding: 15px 30px 0px 30px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-3d70886);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf.quote-reverse-position-yes .jeg-elementor-kit.jkit-testimonials.style-2 .testimonials-track .testimonial-item .testimonial-box .comment-bio {
+    flex-direction: row-reverse;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button span {
+    background-color: var(--e-global-color-primary);
+    color: var(--e-global-color-accent);
+    padding: 13px 19px 10px 19px;
+    margin: 50px 5px 0px 5px;
+    border-radius: 100px 100px 100px 100px;
+    opacity: 100%;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover span:not(.hover-gradient),
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button span.hover-gradient:before {
+    background-color: var(--e-global-color-3f28657);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials.style-1 .testimonials-track .testimonial-item .testimonial-box .testimonial-slider::before {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .comment-content p {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    text-transform: var(--e-global-typography-text-text-transform);
+    text-decoration: var(--e-global-typography-text-text-decoration);
+    line-height: var(--e-global-typography-text-line-height);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: var(--e-global-color-93c97b0);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-name {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-5e6376f-font-family), Sans-serif;
+    font-size: var(--e-global-typography-5e6376f-font-size);
+    font-weight: var(--e-global-typography-5e6376f-font-weight);
+    text-transform: var(--e-global-typography-5e6376f-text-transform);
+    text-decoration: var(--e-global-typography-5e6376f-text-decoration);
+    line-height: var(--e-global-typography-5e6376f-line-height);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-des {
+    margin: 0px 0px 0px 0px;
+    color: var(--e-global-color-93c97b0);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    text-transform: var(--e-global-typography-text-text-transform);
+    text-decoration: var(--e-global-typography-text-text-decoration);
+    line-height: var(--e-global-typography-text-line-height);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-image img {
+    width: 60px;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-image img.source-url {
+    height: 60px;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button i {
+    font-size: 10px;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button svg {
+    width: 10px;
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover span {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials:hover .tns-controls button span {
+    opacity: 100%;
+}
+
+.elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-nav {
+    text-align: center;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box {
+    background-color: var(--e-global-color-0bd20d1);
+    margin: 0px 0px 0px 0px;
+    padding: 15px 30px 0px 30px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-3d70886);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278.quote-reverse-position-yes .jeg-elementor-kit.jkit-testimonials.style-2 .testimonials-track .testimonial-item .testimonial-box .comment-bio {
+    flex-direction: row-reverse;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button span {
+    background-color: var(--e-global-color-primary);
+    color: var(--e-global-color-accent);
+    padding: 13px 19px 10px 19px;
+    margin: 50px 5px 0px 5px;
+    border-radius: 100px 100px 100px 100px;
+    opacity: 100%;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover span:not(.hover-gradient),
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button span.hover-gradient:before {
+    background-color: var(--e-global-color-3f28657);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials.style-1 .testimonials-track .testimonial-item .testimonial-box .testimonial-slider::before {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .comment-content p {
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    text-transform: var(--e-global-typography-text-text-transform);
+    text-decoration: var(--e-global-typography-text-text-decoration);
+    line-height: var(--e-global-typography-text-line-height);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: var(--e-global-color-93c97b0);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-name {
+    color: var(--e-global-color-accent);
+    font-family: var(--e-global-typography-5e6376f-font-family), Sans-serif;
+    font-size: var(--e-global-typography-5e6376f-font-size);
+    font-weight: var(--e-global-typography-5e6376f-font-weight);
+    text-transform: var(--e-global-typography-5e6376f-text-transform);
+    text-decoration: var(--e-global-typography-5e6376f-text-decoration);
+    line-height: var(--e-global-typography-5e6376f-line-height);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-des {
+    margin: 0px 0px 0px 0px;
+    color: var(--e-global-color-93c97b0);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-size: var(--e-global-typography-text-font-size);
+    font-weight: var(--e-global-typography-text-font-weight);
+    text-transform: var(--e-global-typography-text-text-transform);
+    text-decoration: var(--e-global-typography-text-text-decoration);
+    line-height: var(--e-global-typography-text-line-height);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-image img {
+    width: 60px;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-image img.source-url {
+    height: 60px;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button i {
+    font-size: 10px;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button svg {
+    width: 10px;
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover span {
+    color: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover svg {
+    fill: var(--e-global-color-accent);
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials:hover .tns-controls button span {
+    opacity: 100%;
+}
+
+.elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-nav {
+    text-align: center;
+}
+
+@media(max-width:1024px) {
+    .elementor-761 .elementor-element.elementor-element-ec68d9c {
+        --padding-top: 200px;
+        --padding-bottom: 100px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-widget-heading .elementor-heading-title {
+        font-size: var(--e-global-typography-primary-font-size);
+        line-height: var(--e-global-typography-primary-line-height);
+        letter-spacing: var(--e-global-typography-primary-letter-spacing);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-0af0975 .elementor-heading-title {
+        font-size: var(--e-global-typography-a59a5c6-font-size);
+        line-height: var(--e-global-typography-a59a5c6-line-height);
+    }
+
+    .elementor-widget-text-editor {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-5cfbb63>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-5cfbb63 {
+        font-size: var(--e-global-typography-3a5771a-font-size);
+        line-height: var(--e-global-typography-3a5771a-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-b80d882 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-886fdb9 {
+        --flex-direction: column;
+        --container-widget-width: 100%;
+        --container-widget-height: initial;
+        --container-widget-flex-grow: 0;
+        --container-widget-align-self: initial;
+        --flex-wrap-mobile: wrap;
+        --gap: 20px 20px;
+        --row-gap: 20px;
+        --column-gap: 20px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-6054dc5 .elementor-heading-title {
+        font-size: var(--e-global-typography-73118af-font-size);
+        line-height: var(--e-global-typography-73118af-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-587995f .elementor-heading-title {
+        font-size: var(--e-global-typography-secondary-font-size);
+        line-height: var(--e-global-typography-secondary-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-3f8bc5d {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-88e451f {
+        --margin-top: 20px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .comment-content p {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+        color: var(--e-global-color-93c97b0);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-name {
+        color: var(--e-global-color-accent);
+        font-size: var(--e-global-typography-5e6376f-font-size);
+        line-height: var(--e-global-typography-5e6376f-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-des {
+        color: var(--e-global-color-93c97b0);
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button span {
+        color: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button svg {
+        fill: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover span {
+        color: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover svg {
+        fill: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .comment-content p {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+        color: var(--e-global-color-93c97b0);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-name {
+        color: var(--e-global-color-accent);
+        font-size: var(--e-global-typography-5e6376f-font-size);
+        line-height: var(--e-global-typography-5e6376f-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-des {
+        color: var(--e-global-color-93c97b0);
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button span {
+        color: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button svg {
+        fill: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover span {
+        color: var(--e-global-color-secondary);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .tns-controls button:hover svg {
+        fill: var(--e-global-color-secondary);
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-widget-heading .elementor-heading-title {
+        font-size: var(--e-global-typography-primary-font-size);
+        line-height: var(--e-global-typography-primary-line-height);
+        letter-spacing: var(--e-global-typography-primary-letter-spacing);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-0af0975 .elementor-heading-title {
+        font-size: var(--e-global-typography-a59a5c6-font-size);
+        line-height: var(--e-global-typography-a59a5c6-line-height);
+    }
+
+    .elementor-widget-text-editor {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-5cfbb63 {
+        font-size: var(--e-global-typography-3a5771a-font-size);
+        line-height: var(--e-global-typography-3a5771a-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-6054dc5 .elementor-heading-title {
+        font-size: var(--e-global-typography-73118af-font-size);
+        line-height: var(--e-global-typography-73118af-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-587995f .elementor-heading-title {
+        font-size: var(--e-global-typography-secondary-font-size);
+        line-height: var(--e-global-typography-secondary-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-8b06356>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .comment-content p {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+        color: var(--e-global-color-93c97b0);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-name {
+        color: var(--e-global-color-accent);
+        font-size: var(--e-global-typography-5e6376f-font-size);
+        line-height: var(--e-global-typography-5e6376f-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-des {
+        color: var(--e-global-color-93c97b0);
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .comment-content p {
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+        color: var(--e-global-color-93c97b0);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-name {
+        color: var(--e-global-color-accent);
+        font-size: var(--e-global-typography-5e6376f-font-size);
+        line-height: var(--e-global-typography-5e6376f-line-height);
+    }
+
+    .elementor-761 .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track .testimonial-item .testimonial-box .profile-info .profile-des {
+        color: var(--e-global-color-93c97b0);
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-761 .elementor-element.elementor-element-ec68d9c {
+        --content-width: 1290px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-4d2d04d {
+        --content-width: 1290px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-b80d882 {
+        --content-width: 1290px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-886fdb9 {
+        --content-width: 1290px;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-c1d931e {
+        --width: 60%;
+    }
+
+    .elementor-761 .elementor-element.elementor-element-88e451f {
+        --content-width: 1290px;
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-761 .elementor-element.elementor-element-c1d931e {
+        --width: 100%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item {
+        width: calc(3)
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item:nth-child(n+4) {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(3)) {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item {
+        width: calc(2)
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item:nth-child(n+3) {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(2)) {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item {
+        width: calc(1)
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item:nth-child(n+2) {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-bb583cf .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(1)) {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item {
+        width: calc(3)
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item:nth-child(n+4) {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(3)) {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item {
+        width: calc(2)
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item:nth-child(n+3) {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(2)) {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item {
+        width: calc(1)
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider) .testimonial-item:nth-child(n+2) {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-element.elementor-element-860d278 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(1)) {
+        margin-right: 10px;
+    }
+}
