@@ -2874,7 +2874,7 @@
 }
 
 .elementor-857 .elementor-element.elementor-element-9ccc5bc .jeg-elementor-kit.jkit-button .jkit-button-wrapper {
-	background-color: var(--e-global-color-primary);
+	background-color: var(--e-global-color-accent);
 	padding: 10px 10px 10px 30px;
 	font-family: var(--e-global-typography-7a5227c-font-family), Sans-serif;
 	font-size: var(--e-global-typography-7a5227c-font-size);
@@ -2882,7 +2882,7 @@
 	text-transform: var(--e-global-typography-7a5227c-text-transform);
 	text-decoration: var(--e-global-typography-7a5227c-text-decoration);
 	line-height: var(--e-global-typography-7a5227c-line-height);
-	color: var(--e-global-color-accent);
+	color: var(--e-global-color-1a97a32);
 	border-radius: 200px 200px 200px 200px;
 }
 

@@ -20,11 +20,11 @@
     --padding-right: 0px;
 }
 
-.elementor-486 .elementor-element.elementor-element-67c5d22:not(.elementor-motion-effects-element-type-background),
+/* .elementor-486 .elementor-element.elementor-element-67c5d22:not(.elementor-motion-effects-element-type-background),
 .elementor-486 .elementor-element.elementor-element-67c5d22>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at top center, var(--e-global-color-35877dd) 0%, var(--e-global-color-1a97a32) 100%);
-}
+} */
 
 .elementor-486 .elementor-element.elementor-element-d6b734a {
     --display: flex;
@@ -131,13 +131,14 @@
 
 .elementor-486 .elementor-element.elementor-element-07fbcdb:not(.elementor-motion-effects-element-type-background),
 .elementor-486 .elementor-element.elementor-element-07fbcdb>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2024/09/digital-marketing-team-and-business-people-in-meeting-planning-a-creative-sales-growth-and-brandin-e1727158860364.ba.de");
-    background-position: top center;
+    background-image: url("../../2024/09/WhatsApp Image 2025-04-14 at 11.08.15.jpeg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
-.elementor-486 .elementor-element.elementor-element-07fbcdb::before,
+/* .elementor-486 .elementor-element.elementor-element-07fbcdb::before,
 .elementor-486 .elementor-element.elementor-element-07fbcdb>.elementor-background-video-container::before,
 .elementor-486 .elementor-element.elementor-element-07fbcdb>.e-con-inner>.elementor-background-video-container::before,
 .elementor-486 .elementor-element.elementor-element-07fbcdb>.elementor-background-slideshow::before,
@@ -145,7 +146,7 @@
 .elementor-486 .elementor-element.elementor-element-07fbcdb>.elementor-motion-effects-container>.elementor-motion-effects-layer::before {
     background-color: var(--e-global-color-35877dd);
     --background-overlay: '';
-}
+} */
 
 .elementor-486 .elementor-element.elementor-element-2d45d33 {
     --spacer-size: 300px;
@@ -1921,7 +1922,6 @@ body.rtl .elementor-486 .elementor-element.elementor-element-f0fad72 .elementor-
     background-color: transparent;
     margin: 0px 0px 0px 0px;
     padding: 8px 20px 8px 20px;
-    background-image: radial-gradient(at center center, var(--e-global-color-35877dd) 0%, #F2295B00 100%);
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: var(--e-global-color-3d70886);
@@ -2581,11 +2581,11 @@ body.rtl .elementor-486 .elementor-element.elementor-element-f0fad72 .elementor-
     --padding-right: 0px;
 }
 
-.elementor-486 .elementor-element.elementor-element-9a61994:not(.elementor-motion-effects-element-type-background),
+/* .elementor-486 .elementor-element.elementor-element-9a61994:not(.elementor-motion-effects-element-type-background),
 .elementor-486 .elementor-element.elementor-element-9a61994>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
     background-image: radial-gradient(at bottom center, var(--e-global-color-35877dd) 0%, var(--e-global-color-secondary) 70%);
-}
+} */
 
 .elementor-486 .elementor-element.elementor-element-a604f8b {
     --display: flex;
@@ -2602,7 +2602,6 @@ body.rtl .elementor-486 .elementor-element.elementor-element-f0fad72 .elementor-
     background-color: transparent;
     margin: 0px 0px 0px 0px;
     padding: 8px 20px 8px 20px;
-    background-image: radial-gradient(at center center, var(--e-global-color-35877dd) 0%, #F2295B00 100%);
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: var(--e-global-color-3d70886);

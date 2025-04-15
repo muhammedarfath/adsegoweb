@@ -20,10 +20,11 @@
 
 .elementor-26 .elementor-element.elementor-element-a6db9b7:not(.elementor-motion-effects-element-type-background),
 .elementor-26 .elementor-element.elementor-element-a6db9b7>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2024/09/Background.jpg");
+    background-image: url("../../2024/09/C29.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .elementor-26 .elementor-element.elementor-element-a6db9b7::before,
@@ -489,8 +490,8 @@
 
 .elementor-26 .elementor-element.elementor-element-38c13fe:not(.elementor-motion-effects-element-type-background),
 .elementor-26 .elementor-element.elementor-element-38c13fe>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2024/09/ADSEGO MAIN TITLE.png");
-    background-position: top center;
+    background-image: url("../../2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (1).jpeg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -565,9 +566,9 @@
     left: 0;
     top: 0;
     -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(7px);
     border-radius: inherit;
-    background-color: #191930;
+    /* background-color: #191930; */
 }
 
 .elementor-26 .elementor-element.elementor-element-9610280 .elementor-heading-title {
@@ -3868,7 +3869,7 @@ body.rtl .elementor-26 .elementor-element.elementor-element-297568d {
 
 .elementor-26 .elementor-element.elementor-element-dd72cd6:not(.elementor-motion-effects-element-type-background),
 .elementor-26 .elementor-element.elementor-element-dd72cd6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2024/09/ADSEGO MAIN TITLE.png");
+    background-image: url("../../2024/09/Posters for Website (2).jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5855,7 +5856,10 @@ body:not(.rtl) .elementor-26 .elementor-element.elementor-element-5b7001d .eleme
 .elementor-26 .elementor-element.elementor-element-b56a9a1:not(.elementor-motion-effects-element-type-background),
 .elementor-26 .elementor-element.elementor-element-b56a9a1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
-    background-image: radial-gradient(at center center, var(--e-global-color-accent) 0%, var(--e-global-color-1a97a32) 100%);
+    background-image: url('../../2024/09/Image from Google Drive.jpg');
+    background-position : center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .elementor-26 .elementor-element.elementor-element-114b676 {

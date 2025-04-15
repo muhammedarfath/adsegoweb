@@ -23,7 +23,10 @@
 .elementor-587 .elementor-element.elementor-element-553dea0:not(.elementor-motion-effects-element-type-background),
 .elementor-587 .elementor-element.elementor-element-553dea0>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
-    background-image: radial-gradient(at top center, var(--e-global-color-35877dd) 0%, var(--e-global-color-1a97a32) 100%);
+    background-image: url('../../2024/09/Image from Google Drive (1).jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .elementor-587 .elementor-element.elementor-element-54c95ef {
@@ -156,7 +159,6 @@
     background-color: transparent;
     margin: 0px 0px 0px 0px;
     padding: 8px 20px 8px 20px;
-    background-image: radial-gradient(at center center, var(--e-global-color-35877dd) 0%, #F2295B00 100%);
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: var(--e-global-color-3d70886);

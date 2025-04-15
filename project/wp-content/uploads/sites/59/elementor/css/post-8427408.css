@@ -23,7 +23,7 @@
 .elementor-842 .elementor-element.elementor-element-3f129a4:not(.elementor-motion-effects-element-type-background),
 .elementor-842 .elementor-element.elementor-element-3f129a4>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
-    background-image: radial-gradient(at top center, var(--e-global-color-35877dd) 0%, var(--e-global-color-1a97a32) 100%);
+    /* background-image: url('../../2024/09/Background.jpg') */
 }
 
 .elementor-842 .elementor-element.elementor-element-e4d0aa9 {
