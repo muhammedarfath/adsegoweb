@@ -2420,7 +2420,7 @@
           data-elementor-type="page"
           data-elementor-id="491"
           class="elementor elementor-491"
-        >
+          >
           <div
             class="elementor-element elementor-element-3805a2f e-flex e-con-boxed e-con e-parent"
             data-id="3805a2f"
@@ -2581,7 +2581,7 @@
         data-elementor-type="wp-page"
         data-elementor-id="689"
         class="elementor elementor-689"
-      >
+         >
         <div
           class="elementor-element elementor-element-4873c4f e-flex e-con-boxed e-con e-parent"
           data-id="4873c4f"
@@ -2627,7 +2627,7 @@
           data-id="c0217f9"
           data-element_type="container"
           data-settings='{"background_background":"gradient"}'
-        >
+          >
           <div class="e-con-inner">
             <div
               class="elementor-element elementor-element-ce234f3 e-con-full e-flex e-con e-child"
@@ -2671,11 +2671,119 @@
                 </div>
               </div>
             </div>
-            <div
+            <div style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+              <!-- Navigation -->
+              <div style="border-bottom: 1px solid #eee; margin-bottom: 30px;">
+                  <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; margin: 0;">
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer; border-bottom: 2px solid #333;" onclick="filterProjects('branding')" id="branding-tab">
+                          <span style="font-size: 1.1rem;">Branding</span>
+                      </li>
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('web')" id="web-tab">
+                          <span style="font-size: 1.1rem;">Web</span>
+                      </li>
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('applications')" id="applications-tab">
+                          <span style="font-size: 1.1rem;">Applications</span>
+                      </li>
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('banner')" id="banner-tab">
+                          <span style="font-size: 1.1rem;">Banner</span>
+                      </li>
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('loyalty')" id="loyalty-tab">
+                          <span style="font-size: 1.1rem;">Loyalty Partners</span>
+                      </li>
+                  </ul>
+              </div>
+              
+              <!-- Projects Grid -->
+              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+                  <!-- Branding Projects -->
+                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-16%20at%209.32.49%E2%80%AFAM-Yypb2RaHz2ZpUpjNQBdsIexbso2yo0.png" alt="Sparkle Branding" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Prana Branding" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Health Branding" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="/placeholder.svg?height=300&width=400" alt="FinOne Branding" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Network Infra Branding" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Hexa Branding" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  
+                  <!-- Web Projects -->
+                  <div class="project web" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Web Project 1" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project web" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Web Project 2" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project web" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Web Project 3" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  
+                  <!-- Applications Projects -->
+                  <div class="project applications" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="App Project 1" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project applications" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="App Project 2" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project applications" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="App Project 3" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  
+                  <!-- Banner Projects -->
+                  <div class="project banner" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Banner Project 1" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project banner" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Banner Project 2" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  
+                  <!-- Loyalty Partners Projects -->
+                  <div class="project loyalty" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Loyalty Project 1" style="width: 100%; height: auto; display: block;">
+                  </div>
+                  <div class="project loyalty" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="/placeholder.svg?height=300&width=400" alt="Loyalty Project 2" style="width: 100%; height: auto; display: block;">
+                  </div>
+              </div>
+          </div>
+      
+          <script>
+              function filterProjects(category) {
+                  // Hide all projects
+                  const allProjects = document.querySelectorAll('.project');
+                  allProjects.forEach(project => {
+                      project.style.display = 'none';
+                  });
+                  
+                  // Show projects of selected category
+                  const selectedProjects = document.querySelectorAll(`.${category}`);
+                  selectedProjects.forEach(project => {
+                      project.style.display = 'block';
+                  });
+                  
+                  // Update active tab styling
+                  const allTabs = document.querySelectorAll('li');
+                  allTabs.forEach(tab => {
+                      tab.style.borderBottom = 'none';
+                  });
+                  
+                  const activeTab = document.getElementById(`${category}-tab`);
+                  activeTab.style.borderBottom = '2px solid #333';
+              }
+          </script>
+            <!-- <div
               class="elementor-element elementor-element-b1dff4f e-flex e-con-boxed e-con e-child"
               data-id="b1dff4f"
               data-element_type="container"
-            >
+               >
               <div class="e-con-inner">
                 <div
                   class="elementor-element elementor-element-11a93ed e-con-full e-flex e-con e-child"
@@ -3370,7 +3478,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- <div
