@@ -2592,12 +2592,12 @@
                   data-element_type="widget"
                   data-settings='{"_transform_scale_effect_hover":{"unit":"px","size":"0.9","sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}'
                   data-widget_type="jkit_button.default"
-                >
+                  >
                   <div class="elementor-widget-container">
                     <div
-                      class="jeg-elementor-kit jkit-button icon-position-after jeg_module_842_1_67deba59ee518"
+                      class="jeg-elementor-kit jkit-button icon-position-after jeg_module_26_1_67debc6437ca6"
                     >
-                      <a href="#" class="jkit-button-wrapper"
+                      <a href="#" class="jkit-button-wrapper" id="openModalBtn"
                         >Let&#039;s Talk<svg
                           viewBox="0 0 448 512"
                           xmlns="http://www.w3.org/2000/svg"
@@ -2609,6 +2609,291 @@
                     </div>
                   </div>
                 </div>
+                <!-- Modal -->
+                <!-- Modal with inline styles -->
+                <div
+                  id="contactModal"
+                  style="
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    z-index: 1000;
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                  "
+                >
+                  <div
+                    id="modalContent"
+                    style="
+                      background-color: white;
+                      width: 90%;
+                      max-width: 500px;
+                      margin: auto;
+                      border-radius: 12px;
+                      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                      transform: translateY(-50px);
+                      transition: transform 0.4s ease;
+                      overflow: hidden;
+                    "
+                  >
+                    <div
+                      style="
+                        padding: 20px;
+                        background-color: #f8f9fa;
+                        border-bottom: 1px solid #eee;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                      "
+                    >
+                      <h2 style="margin: 0; font-size: 1.5rem; color: #333">
+                        Let's Talk About Your Project
+                      </h2>
+                      <button
+                        id="closeModalBtn"
+                        style="
+                          background: none;
+                          border: none;
+                          font-size: 1.5rem;
+                          cursor: pointer;
+                          color: #666;
+                          transition: color 0.2s;
+                        "
+                      >
+                        &times;
+                      </button>
+                    </div>
+                    <div style="padding: 20px">
+                      <form id="contactForm">
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="name"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Name</label
+                          >
+                          <input
+                            type="text"
+                            id="name"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          />
+                        </div>
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="phone"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            id="phone"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          />
+                        </div>
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="email"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            id="email"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          />
+                        </div>
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="project"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Describe Your Project</label
+                          >
+                          <textarea
+                            id="project"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              min-height: 120px;
+                              resize: vertical;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          ></textarea>
+                        </div>
+                        <a
+                          type="submit"
+                          style="
+                            background-color: #000000;
+                            color: white;
+                            border: none;
+                            padding: 12px 24px;
+                            border-radius: 6px;
+                            font-size: 16px;
+                            cursor: pointer;
+                            transition: background-color 0.2s;
+                            width: 100%;
+                            display: inline-block;
+                            text-align: center;
+                            text-decoration: none;
+                          "
+                        >
+                          Submit
+                        </a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <script>
+                  // Get modal elements
+                  const modal = document.getElementById("contactModal");
+                  const modalContent = document.getElementById("modalContent");
+                  const openBtn = document.getElementById("openModalBtn");
+                  const closeBtn = document.getElementById("closeModalBtn");
+                  const contactForm = document.getElementById("contactForm");
+
+                  // Open modal
+                  openBtn.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    modal.style.display = "flex";
+                    // Force reflow to ensure transition works
+                    void modal.offsetWidth;
+                    modal.style.opacity = "1";
+                    modalContent.style.transform = "translateY(0)";
+                    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+                  });
+
+                  // Close modal function
+                  function closeModal() {
+                    modal.style.opacity = "0";
+                    modalContent.style.transform = "translateY(-50px)";
+                    setTimeout(() => {
+                      modal.style.display = "none";
+                      document.body.style.overflow = ""; // Restore scrolling
+                    }, 300); // Match the transition duration
+                  }
+
+                  // Close modal with button
+                  closeBtn.addEventListener("click", closeModal);
+
+                  // Close modal when clicking outside
+                  modal.addEventListener("click", function (e) {
+                    if (e.target === modal) {
+                      closeModal();
+                    }
+                  });
+
+                  // Form submission
+                  contactForm.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    // Here you would typically send the form data to your server
+                    alert(
+                      "Form submitted! In a real application, this would send your data to the server."
+                    );
+                    closeModal();
+                    contactForm.reset();
+                  });
+
+                  // Add hover effect for close button
+                  closeBtn.addEventListener("mouseover", function () {
+                    this.style.color = "#333";
+                  });
+                  closeBtn.addEventListener("mouseout", function () {
+                    this.style.color = "#666";
+                  });
+
+                  // Add focus effect for inputs
+                  const inputs = document.querySelectorAll("input, textarea");
+                  inputs.forEach((input) => {
+                    input.addEventListener("focus", function () {
+                      this.style.borderColor = "#4a90e2";
+                    });
+                    input.addEventListener("blur", function () {
+                      this.style.borderColor = "#ddd";
+                    });
+                  });
+
+                  // Add hover effect for submit button
+                  const submitBtn = document.querySelector(
+                    'button[type="submit"]'
+                  );
+                  submitBtn.addEventListener("mouseover", function () {
+                    this.style.backgroundColor = "#3a7bc8";
+                  });
+                  submitBtn.addEventListener("mouseout", function () {
+                    this.style.backgroundColor = "#4a90e2";
+                  });
+                </script>
               </div>
             </div>
           </div>

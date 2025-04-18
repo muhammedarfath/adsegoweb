@@ -2545,19 +2545,10 @@
                               ><img
                                 width="2181"
                                 height="924"
-                                src="../wp-content/uploads/sites/59/2024/09/Logo.png"
+                                src="../wp-content/uploads/sites/59/2024/09/Logo Title White (1).png"
                                 class="attachment-full size-full"
                                 alt=""
                                 decoding="async"
-                                srcset="
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo.png          2181w,
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo-300x127.png   300w,
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo-1024x434.png 1024w,
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo-768x325.png   768w,
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo-1536x651.png 1536w,
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo-2048x868.png 2048w,
-                                  https://www.wordpress-dev.codeinsolution.com/zynex/wp-content/uploads/sites/59/2024/09/Logo-800x339.png   800w
-                                "
                                 sizes="(max-width: 2181px) 100vw, 2181px"
                             /></a>
                           </div>
@@ -2588,12 +2579,12 @@
                   data-element_type="widget"
                   data-settings='{"_transform_scale_effect_hover":{"unit":"px","size":"0.9","sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}'
                   data-widget_type="jkit_button.default"
-                >
+                  >
                   <div class="elementor-widget-container">
                     <div
-                      class="jeg-elementor-kit jkit-button icon-position-after jeg_module_486_1_67debc6d8dfdb"
+                      class="jeg-elementor-kit jkit-button icon-position-after jeg_module_26_1_67debc6437ca6"
                     >
-                      <a href="#" class="jkit-button-wrapper"
+                      <a href="#" class="jkit-button-wrapper" id="openModalBtn"
                         >Let&#039;s Talk<svg
                           viewBox="0 0 448 512"
                           xmlns="http://www.w3.org/2000/svg"
@@ -2605,6 +2596,291 @@
                     </div>
                   </div>
                 </div>
+                <!-- Modal -->
+                <!-- Modal with inline styles -->
+                <div
+                  id="contactModal"
+                  style="
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    z-index: 1000;
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                  "
+                >
+                  <div
+                    id="modalContent"
+                    style="
+                      background-color: white;
+                      width: 90%;
+                      max-width: 500px;
+                      margin: auto;
+                      border-radius: 12px;
+                      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                      transform: translateY(-50px);
+                      transition: transform 0.4s ease;
+                      overflow: hidden;
+                    "
+                  >
+                    <div
+                      style="
+                        padding: 20px;
+                        background-color: #f8f9fa;
+                        border-bottom: 1px solid #eee;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                      "
+                    >
+                      <h2 style="margin: 0; font-size: 1.5rem; color: #333">
+                        Let's Talk About Your Project
+                      </h2>
+                      <button
+                        id="closeModalBtn"
+                        style="
+                          background: none;
+                          border: none;
+                          font-size: 1.5rem;
+                          cursor: pointer;
+                          color: #666;
+                          transition: color 0.2s;
+                        "
+                      >
+                        &times;
+                      </button>
+                    </div>
+                    <div style="padding: 20px">
+                      <form id="contactForm">
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="name"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Name</label
+                          >
+                          <input
+                            type="text"
+                            id="name"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          />
+                        </div>
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="phone"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            id="phone"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          />
+                        </div>
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="email"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            id="email"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          />
+                        </div>
+                        <div style="margin-bottom: 20px">
+                          <label
+                            for="project"
+                            style="
+                              display: block;
+                              margin-bottom: 8px;
+                              font-weight: 500;
+                              color: #333;
+                            "
+                            >Describe Your Project</label
+                          >
+                          <textarea
+                            id="project"
+                            required
+                            style="
+                              width: 100%;
+                              padding: 12px;
+                              border: 1px solid #ddd;
+                              border-radius: 6px;
+                              font-size: 16px;
+                              transition: border-color 0.2s;
+                              box-sizing: border-box;
+                              min-height: 120px;
+                              resize: vertical;
+                              background: white;
+                              outline: none;
+                            "
+                            onfocus="this.style.borderColor='black'"
+                            onblur="this.style.borderColor='#ddd'"
+                          ></textarea>
+                        </div>
+                        <a
+                          type="submit"
+                          style="
+                            background-color: #000000;
+                            color: white;
+                            border: none;
+                            padding: 12px 24px;
+                            border-radius: 6px;
+                            font-size: 16px;
+                            cursor: pointer;
+                            transition: background-color 0.2s;
+                            width: 100%;
+                            display: inline-block;
+                            text-align: center;
+                            text-decoration: none;
+                          "
+                        >
+                          Submit
+                        </a>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <script>
+                  // Get modal elements
+                  const modal = document.getElementById("contactModal");
+                  const modalContent = document.getElementById("modalContent");
+                  const openBtn = document.getElementById("openModalBtn");
+                  const closeBtn = document.getElementById("closeModalBtn");
+                  const contactForm = document.getElementById("contactForm");
+
+                  // Open modal
+                  openBtn.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    modal.style.display = "flex";
+                    // Force reflow to ensure transition works
+                    void modal.offsetWidth;
+                    modal.style.opacity = "1";
+                    modalContent.style.transform = "translateY(0)";
+                    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+                  });
+
+                  // Close modal function
+                  function closeModal() {
+                    modal.style.opacity = "0";
+                    modalContent.style.transform = "translateY(-50px)";
+                    setTimeout(() => {
+                      modal.style.display = "none";
+                      document.body.style.overflow = ""; // Restore scrolling
+                    }, 300); // Match the transition duration
+                  }
+
+                  // Close modal with button
+                  closeBtn.addEventListener("click", closeModal);
+
+                  // Close modal when clicking outside
+                  modal.addEventListener("click", function (e) {
+                    if (e.target === modal) {
+                      closeModal();
+                    }
+                  });
+
+                  // Form submission
+                  contactForm.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    // Here you would typically send the form data to your server
+                    alert(
+                      "Form submitted! In a real application, this would send your data to the server."
+                    );
+                    closeModal();
+                    contactForm.reset();
+                  });
+
+                  // Add hover effect for close button
+                  closeBtn.addEventListener("mouseover", function () {
+                    this.style.color = "#333";
+                  });
+                  closeBtn.addEventListener("mouseout", function () {
+                    this.style.color = "#666";
+                  });
+
+                  // Add focus effect for inputs
+                  const inputs = document.querySelectorAll("input, textarea");
+                  inputs.forEach((input) => {
+                    input.addEventListener("focus", function () {
+                      this.style.borderColor = "#4a90e2";
+                    });
+                    input.addEventListener("blur", function () {
+                      this.style.borderColor = "#ddd";
+                    });
+                  });
+
+                  // Add hover effect for submit button
+                  const submitBtn = document.querySelector(
+                    'button[type="submit"]'
+                  );
+                  submitBtn.addEventListener("mouseover", function () {
+                    this.style.backgroundColor = "#3a7bc8";
+                  });
+                  submitBtn.addEventListener("mouseout", function () {
+                    this.style.backgroundColor = "#4a90e2";
+                  });
+                </script>
               </div>
             </div>
           </div>
@@ -2647,9 +2923,7 @@
                   data-widget_type="text-editor.default"
                 >
                   <div class="elementor-widget-container">
-                    Zynex is a results-driven digital marketing agency
-                    passionate about helping businesses succeed in the online
-                    world.
+                    A results-focused Advertising and marketing agency, we empower businesses to dominate the online world and achieve exceptional growth.
                   </div>
                 </div>
               </div>
@@ -2872,7 +3146,7 @@
           <header style="margin-bottom: 40px; padding-top: 20px">
             <h1
               style="
-                color: #ad49e1;
+                color: #ffff;
                 font-size: clamp(28px, 5vw, 36px);
                 font-weight: 600;
                 margin-bottom: 40px;
@@ -2891,12 +3165,7 @@
                   max-width: 100%;
                 "
               >
-                Founded in 2018, Mysearch Global Rewards transitioned into MSGR
-                - a leading IT solutions company with offices in INDIA, DUBAI &
-                UNITED STATES. Led by a passionate team of IT professionals with
-                over two decades' experience in the industry spanning over a
-                dozen countries across the globe, MSGR sharpened our proficiency
-                in digital innovation & disruption.
+              Adsego quickly established itself as a premier digital marketing agency based in Kerala, India. Over the last seven years, we’ve built a strong presence in the digital landscape, collaborating with clients across the UK, US, and UAE. Our journey began with a small but passionate team, and today, we stand as a leading force in digital advertising with a proven track record of success.
               </p>
 
               <p
@@ -2906,11 +3175,7 @@
                   max-width: 100%;
                 "
               >
-                We began our operations in Dubai and soon launched an office in
-                Trivandrum, India. Within 5 years of inception, MSGR garnered
-                applause and patronage from renowned organizations for our
-                excellence and expertise in bespoke digital solutions leading to
-                us becoming the
+              With an adept team of marketing professionals, designers, analysts, and developers, we specialize in creating tailored strategies that not only drive growth but also ensure sustained success for our clients. Whether you’re a startup or an established brand, We offers a comprehensive range of digital solutions that meet your unique business needs. 
               </p>
 
               <p
@@ -2920,10 +3185,10 @@
                   max-width: 100%;
                 "
               >
-                <span style="color: #ad49e1; font-weight: 500"
-                  >best digital marketing company in Trivandrum</span
+                <span style="color: #ffff; font-weight: 500"
+                  > We Don’t Just Market – We Transform.
+                  </span
                 >
-                & Dubai.
               </p>
 
               <p
@@ -2933,14 +3198,18 @@
                   max-width: 100%;
                 "
               >
-                At the end of the day, the people at MSGR simply like to watch
-                businesses grow with our help. To achieve this, we use
-                innovative ideas that facilitate strategic product/service
-                design while ensuring a healthy business ecosystem. We believe
-                combining creativity with just the right choice of technology
-                grants desired results while helping businesses stay ahead of
-                the curve.
+              With a combined expertise of over a decade in digital marketing, our team is equipped with the latest tools, technologies, and skills to deliver results-driven strategies. From SEO and social media marketing to branding and conversion optimization, our tailored approach has helped countless clients across the globe achieve measurable success.
               </p>
+              <p
+                style="
+                  font-size: clamp(16px, 2.5vw, 18px);
+                  margin-bottom: 20px;
+                  max-width: 100%;
+                "
+              >
+              Based in Kerala, India, Adsego is proud to have worked with renowned clients across the UK, US, and UAE, delivering outstanding digital marketing services that set new standards for excellence. 
+              </p>
+
             </section>
 
             <section style="margin-top: 60px">
@@ -2952,8 +3221,7 @@
                   max-width: 100%;
                 "
               >
-                WE ARE ANALYSTS, STRATEGISTS, MARKETERS, DESIGNERS & DEVELOPERS
-                COMBINED.
+              WE ARE MARKETERS. STRATEGISTS. ANALYSTS AND DEVELOPERS COMBINED.
               </p>
 
               <p
@@ -2964,7 +3232,7 @@
                   max-width: 100%;
                 "
               >
-                WE ARE MSGR.
+              WE ARE ADSEGO
               </p>
             </section>
           </main>
@@ -3102,7 +3370,7 @@
                     class="elementor-element elementor-element-6080319 e-con-full e-flex e-con e-child"
                     data-id="6080319"
                     data-element_type="container"
-                  >
+                    >
                     <div
                       class="elementor-element elementor-element-832b32d elementor-widget elementor-widget-jkit_fun_fact"
                       data-id="832b32d"
@@ -3119,14 +3387,14 @@
                                 <span class="prefix"></span>
                                 <span
                                   class="number"
-                                  data-value="2"
+                                  data-value="4"
                                   data-animation-duration="3500"
                                   >0</span
                                 >
                                 <span class="suffix"></span
                                 ><sup class="super">+</sup>
                               </div>
-                              <h2 class="title">Award Winning</h2>
+                              <h2 class="title">Countries</h2>
                             </div>
                           </div>
                         </div>
@@ -3170,7 +3438,7 @@
               "
             >
               <img
-                src="../wp-content/uploads/sites//59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (2).jpeg"
+                src="../wp-content/uploads/sites//59/2024/09/WhatsApp Image 2025-04-17 at 02.15.19.jpeg"
                 alt="Digital specialist working"
                 style="
                   max-width: 100%;
@@ -3364,7 +3632,7 @@
               "
             >
               <img
-                src="../wp-content/uploads/sites//59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (3).jpeg"
+                src="../wp-content/uploads/sites//59/2024/09/WhatsApp Image 2025-04-17 at 02.15.19 (1).jpeg"
                 alt="Mobile app illustration"
                 style="
                   max-width: 100%;
@@ -3405,7 +3673,7 @@
             });
           });
         </script>
-        <div
+        <!-- <div
           class="elementor-element elementor-element-d9e935b e-flex e-con-boxed e-con e-parent"
           data-id="d9e935b"
           data-element_type="container"
@@ -3803,13 +4071,13 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div
           class="elementor-element elementor-element-9a61994 e-flex e-con-boxed e-con e-parent"
           data-id="9a61994"
           data-element_type="container"
           data-settings='{"background_background":"gradient"}'
-        >
+          >
           <div class="e-con-inner">
             <div
               class="elementor-element elementor-element-a604f8b e-con-full e-flex e-con e-child"
@@ -3905,7 +4173,7 @@
                               </div>
                             </div>
                             <span class="title"
-                              >What services do you offer?</span
+                              >What makes you the best digital-driven success team?</span
                             >
                           </a>
                         </div>
@@ -3915,11 +4183,7 @@
                           style="display: block"
                         >
                           <div class="card-body">
-                            Vel metus senectus ullamcorper sollicitudin auctor
-                            placerat maximus nec. Curabitur ligula metus platea
-                            velit, tellus vulputate enim in tempor. Praesent
-                            sollicitudin ac efficitur primis urna. Mollis justo
-                            montes ultrices posuere phasellus conubia venenatis.
+                            We are driven by a relentless focus on delivering results that matter. Our team of experts combines creativity, cutting-edge technology, and data-driven strategies to ensure your brand achieves its full potential online. From crafting tailored digital strategies to executing campaigns that engage and convert, we’re committed to driving real success for your business.
                           </div>
                         </div>
                       </div>
@@ -3959,8 +4223,7 @@
                               </div>
                             </div>
                             <span class="title"
-                              >How do you determine the right strategy for my
-                              business?</span
+                              >How do you ensure the highest quality video ads for my brand?</span
                             >
                           </a>
                         </div>
@@ -3970,11 +4233,7 @@
                           style="display: none"
                         >
                           <div class="card-body">
-                            Vel metus senectus ullamcorper sollicitudin auctor
-                            placerat maximus nec. Curabitur ligula metus platea
-                            velit, tellus vulputate enim in tempor. Praesent
-                            sollicitudin ac efficitur primis urna. Mollis justo
-                            montes ultrices posuere phasellus conubia venenatis.
+                            Our video production team uses state-of-the-art equipment and advanced editing techniques to create video ads that stand out. We focus on storytelling, high-definition visuals, and compelling calls to action to ensure your message resonates with your target audience. Every video ad is carefully crafted to maximize impact and drive results.
                           </div>
                         </div>
                       </div>
@@ -4014,8 +4273,7 @@
                               </div>
                             </div>
                             <span class="title"
-                              >What makes your agency different from
-                              others?</span
+                              >How many leads can I expect per month from your services?</span
                             >
                           </a>
                         </div>
@@ -4025,11 +4283,7 @@
                           style="display: none"
                         >
                           <div class="card-body">
-                            Vel metus senectus ullamcorper sollicitudin auctor
-                            placerat maximus nec. Curabitur ligula metus platea
-                            velit, tellus vulputate enim in tempor. Praesent
-                            sollicitudin ac efficitur primis urna. Mollis justo
-                            montes ultrices posuere phasellus conubia venenatis.
+                            We tailor our lead generation strategies to your business goals, industry, and target audience. By leveraging the latest digital marketing tactics and optimizing every campaign, we aim to provide you with a consistent stream of high-quality leads each month. We work closely with you to set realistic targets and achieve measurable results.
                           </div>
                         </div>
                       </div>
@@ -4069,7 +4323,7 @@
                               </div>
                             </div>
                             <span class="title"
-                              >How long will it take to see results?</span
+                              >What makes your social media designs and video editing stand out?</span
                             >
                           </a>
                         </div>
@@ -4079,11 +4333,7 @@
                           style="display: none"
                         >
                           <div class="card-body">
-                            Vel metus senectus ullamcorper sollicitudin auctor
-                            placerat maximus nec. Curabitur ligula metus platea
-                            velit, tellus vulputate enim in tempor. Praesent
-                            sollicitudin ac efficitur primis urna. Mollis justo
-                            montes ultrices posuere phasellus conubia venenatis.
+                            We specialize in creating visually captivating social media designs and video content that not only grabs attention but also drives engagement. Using the latest techniques in graphic design and video editing, we ensure every piece of content is tailored to reflect your brand’s identity and resonate with your audience. From stunning visuals to seamless animations, we create high-quality, share-worthy content that elevates your social media presence.
                           </div>
                         </div>
                       </div>
@@ -4123,7 +4373,7 @@
                               </div>
                             </div>
                             <span class="title"
-                              >Do you have experience in my industry?</span
+                              >What makes your approach to digital marketing unique?</span
                             >
                           </a>
                         </div>
@@ -4133,11 +4383,8 @@
                           style="display: none"
                         >
                           <div class="card-body">
-                            Vel metus senectus ullamcorper sollicitudin auctor
-                            placerat maximus nec. Curabitur ligula metus platea
-                            velit, tellus vulputate enim in tempor. Praesent
-                            sollicitudin ac efficitur primis urna. Mollis justo
-                            montes ultrices posuere phasellus conubia venenatis.
+                            Our approach is unique because we combine creativity with data-driven insights to craft personalized marketing strategies. We focus on understanding your business goals and challenges, then build custom campaigns that are designed for maximum effectiveness. Our team stays ahead of digital trends, ensuring that your brand always remains competitive in a rapidly evolving market.
+
                           </div>
                         </div>
                       </div>
@@ -5227,7 +5474,7 @@
                                       <path
                                         d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"
                                       ></path></svg
-                                    >Subscribe
+                                    >Submit
                                   </button>
                                 </div>
                               </div>
@@ -5298,7 +5545,8 @@
                                   </svg>
                                 </span>
                                 <span class="elementor-icon-list-text"
-                                  >adsego.com</span
+                                  >adsegofuture@gmail.com
+                                  </span
                                 >
                               </a>
                             </li>
@@ -5317,7 +5565,7 @@
                                   </svg>
                                 </span>
                                 <span class="elementor-icon-list-text"
-                                  >09074955688</span
+                                  >+91 9074955688</span
                                 >
                               </a>
                             </li>
@@ -5356,45 +5604,45 @@
                         data-element_type="widget"
                         data-widget_type="icon-list.default"
                       >
-                        <div class="elementor-widget-container">
-                          <ul class="elementor-icon-list-items">
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Search Engine Optimization</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Content Marketing</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Website Design</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Brand Strategy</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Social Media Marketing</span
-                                >
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                      <div class="elementor-widget-container">
+                        <ul class="elementor-icon-list-items">
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Search Engine Optimization</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Video Ads Production</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Website Development</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Brand Strategy</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Social Media Marketing</span
+                              >
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                       </div>
                     </div>
                     <div
@@ -5500,7 +5748,7 @@
                     data-widget_type="text-editor.default"
                   >
                     <div class="elementor-widget-container">
-                      Copyright © 2025 All rights reserved.
+                      Copyright © 2024 All rights reserved.
                     </div>
                   </div>
                 </div>
@@ -5515,9 +5763,7 @@
                     data-element_type="widget"
                     data-widget_type="text-editor.default"
                   >
-                    <div class="elementor-widget-container">
-                      Digital Marketing Agency
-                    </div>
+
                   </div>
                 </div>
               </div>
