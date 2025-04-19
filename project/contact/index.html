@@ -2592,7 +2592,7 @@
                   data-element_type="widget"
                   data-settings='{"_transform_scale_effect_hover":{"unit":"px","size":"0.9","sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}'
                   data-widget_type="jkit_button.default"
-                  >
+                >
                   <div class="elementor-widget-container">
                     <div
                       class="jeg-elementor-kit jkit-button icon-position-after jeg_module_26_1_67debc6437ca6"
@@ -3333,7 +3333,7 @@
                           		className="mf-input mf-conditional-input"
                           		id="mf-input-text-a045108"
                           		name="mf-last-name"
-                          		placeholder="${ parent.decodeEntities(`Company`) } "
+                          		placeholder="${ parent.decodeEntities(`Email`) } "
                           							onInput=${parent.handleChange}
                           			onBlur=${parent.handleChange}
                           			aria-invalid=${validation.errors['mf-last-name'] ? 'true' : 'false'}
@@ -3356,33 +3356,11 @@
                           			</div>
                           		</div>
                           <div className="elementor-element elementor-element-e3fc618 e-flex e-con-boxed e-con e-child" data-id="e3fc618" data-element_type="container">
-                          			<div className="e-con-inner">
+                          		<div className="e-con-inner">
                           <div className="elementor-element elementor-element-5c51ea2 e-con-full e-flex e-con e-child" data-id="5c51ea2" data-element_type="container">
                           		<div className="elementor-element elementor-element-9140b2c elementor-widget elementor-widget-mf-email" data-id="9140b2c" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default">
                           		<div className="elementor-widget-container">
 
-                          <div className="mf-input-wrapper">
-
-                          	<input
-                          		type="email"
-
-                          		defaultValue=""
-                          		className="mf-input mf-conditional-input"
-                          		id="mf-input-email-9140b2c"
-                          		name="mf-email"
-                          		placeholder="${ parent.decodeEntities(`Email`) } "
-
-                          		onBlur=${parent.handleChange} onFocus=${parent.handleChange} aria-invalid=${validation.errors['mf-email'] ? 'true' : 'false' }
-                          		ref=${el=> parent.activateValidation({"message":"This field is required.","emailMessage":"Please enter a valid Email address","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)}
-                          					/>
-
-                          				<${validation.ErrorMessage}
-                          		errors=${validation.errors}
-                          		name="mf-email"
-                          		as=${html`<span className="mf-error-message"></span>`}
-                          	/>
-
-                          			</div>
 
                           		</div>
                           		</div>
@@ -3391,29 +3369,6 @@
                           		<div className="elementor-element elementor-element-97ff8d8 elementor-widget elementor-widget-mf-text" data-id="97ff8d8" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-subject&quot;}" data-widget_type="mf-text.default">
                           		<div className="elementor-widget-container">
 
-                          <div className="mf-input-wrapper">
-
-                          	<input
-                          		type="text"
-                          		className="mf-input mf-conditional-input"
-                          		id="mf-input-text-97ff8d8"
-                          		name="mf-subject"
-                          		placeholder="${ parent.decodeEntities(`Subject`) } "
-                          							onInput=${parent.handleChange}
-                          			onBlur=${parent.handleChange}
-                          			aria-invalid=${validation.errors['mf-subject'] ? 'true' : 'false'}
-                          			ref=${el =>{
-                          										parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":true,"expression":"null"}, el)
-                          			}}
-                          						/>
-
-                          					<${validation.ErrorMessage}
-                          			errors=${validation.errors}
-                          			name="mf-subject"
-                          			as=${html`<span className="mf-error-message"></span>`}
-                          			/>
-
-                          			</div>
 
                           				</div>
                           		</div>
@@ -3432,7 +3387,7 @@
                           		className="mf-input "
                           		id="mf-input-telephone-6d0d605"
                           		name="mf-telephone"
-                          		placeholder="${ parent.decodeEntities(`Telephone`) } "
+                          		placeholder="${ parent.decodeEntities(`Phone`) } "
                           							onInput=${parent.handleChange}
                           			aria-invalid=${validation.errors['mf-telephone'] ? 'true' : 'false'}
                           			ref=${el => parent.activateValidation({"message":"This field is required.","minLength":1,"maxLength":"","type":"none","required":false,"expression":"null"}, el)}
@@ -3460,7 +3415,7 @@
 
                           	<textarea className="mf-input mf-textarea mf-conditional-input" id="mf-input-text-area-44352c6"
                           		name="mf-comment"
-                          		placeholder="${ parent.decodeEntities(`Massage`) } "
+                          		placeholder="${ parent.decodeEntities(`What’s Your Business `) } "
                           		cols="30" rows="10"
                           							onInput=${ parent.handleChange }
                           			aria-invalid=${validation.errors['mf-comment'] ? 'true' : 'false'}
@@ -4553,7 +4508,7 @@
                               sizes="(max-width: 2181px) 100vw, 2181px"
                             />
                           </a>
-                        </div>
+                        </div> 
                       </div>
                       <div
                         class="elementor-element elementor-element-e70cf6a elementor-widget elementor-widget-text-editor"
@@ -4619,7 +4574,7 @@
                                       <path
                                         d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"
                                       ></path></svg
-                                    >Subscribe
+                                    >Submit
                                   </button>
                                 </div>
                               </div>
@@ -4690,7 +4645,8 @@
                                   </svg>
                                 </span>
                                 <span class="elementor-icon-list-text"
-                                  >adsego.com</span
+                                  >adsegofuture@gmail.com
+                                  </span
                                 >
                               </a>
                             </li>
@@ -4748,45 +4704,45 @@
                         data-element_type="widget"
                         data-widget_type="icon-list.default"
                       >
-                        <div class="elementor-widget-container">
-                          <ul class="elementor-icon-list-items">
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Search Engine Optimization</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Content Marketing</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Website Design</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Brand Strategy</span
-                                >
-                              </a>
-                            </li>
-                            <li class="elementor-icon-list-item">
-                              <a href="#">
-                                <span class="elementor-icon-list-text"
-                                  >Social Media Marketing</span
-                                >
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                      <div class="elementor-widget-container">
+                        <ul class="elementor-icon-list-items">
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Search Engine Optimization</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Video Ads Production</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Website Development</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Brand Strategy</span
+                              >
+                            </a>
+                          </li>
+                          <li class="elementor-icon-list-item">
+                            <a href="/project/services/index.html">
+                              <span class="elementor-icon-list-text"
+                                >Social Media Marketing</span
+                              >
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                       </div>
                     </div>
                     <div
@@ -4907,9 +4863,6 @@
                     data-element_type="widget"
                     data-widget_type="text-editor.default"
                   >
-                    <div class="elementor-widget-container">
-                      Digital Marketing Agency
-                    </div>
                   </div>
                 </div>
               </div>

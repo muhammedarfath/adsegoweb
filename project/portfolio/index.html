@@ -2957,105 +2957,170 @@
               <!-- Navigation -->
               <div style="border-bottom: 1px solid #eee; margin-bottom: 30px;">
                   <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; margin: 0;">
-                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer; border-bottom: 2px solid #333;" onclick="filterProjects('branding')" id="branding-tab">
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer; transition: all 0.3s ease;" onclick="filterProjects('branding')" id="branding-tab">
                           <span style="font-size: 1.1rem;">Branding</span>
                       </li>
-                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('web')" id="web-tab">
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer; transition: all 0.3s ease;" onclick="filterProjects('web')" id="web-tab">
                           <span style="font-size: 1.1rem;">Video Productions</span>
                       </li>
-                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('applications')" id="applications-tab">
-                          <span style="font-size: 1.1rem;">creatives</span>
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer; transition: all 0.3s ease;" onclick="filterProjects('applications')" id="applications-tab">
+                          <span style="font-size: 1.1rem;">Creatives</span>
                       </li>
-                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer;" onclick="filterProjects('banner')" id="banner-tab">
+                      <li style="margin-right: 30px; padding-bottom: 10px; cursor: pointer; transition: all 0.3s ease;" onclick="filterProjects('banner')" id="banner-tab">
                           <span style="font-size: 1.1rem;">Leads Results</span>
                       </li>
                   </ul>
               </div>
               
+              <!-- Leads Results Header (Hidden by default) -->
+              <div id="leads-header" style="display: none; text-align: center; margin-bottom: 40px; animation: fadeIn 0.5s ease;">
+                  <h2 style="font-size: 2rem; margin-bottom: 15px; color: #333;">From Clicks to Clients</h2>
+                  <p style="font-size: 1.1rem; color: #666; max-width: 700px; margin: 0 auto;">See how our strategies convert visitors into valuable customers for your business.</p>
+              </div>
+              
               <!-- Projects Grid -->
-              <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+              <div id="projects-grid" style="display: grid; gap: 20px;">
                   <!-- Branding Projects -->
                   <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                      <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-16%20at%209.32.49%E2%80%AFAM-Yypb2RaHz2ZpUpjNQBdsIexbso2yo0.png" alt="Sparkle Branding" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (1).jpeg" alt="Sparkle Branding" style="width: 100%; height: auto; display: block;">
                   </div>
                   <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Prana Branding" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15.jpeg" alt="Prana Branding" style="width: 100%; height: auto; display: block;">
                   </div>
                   <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Health Branding" style="width: 100%; height: auto; display: block;">
-                  </div>
-                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                      <img src="/placeholder.svg?height=300&width=400" alt="FinOne Branding" style="width: 100%; height: auto; display: block;">
-                  </div>
-                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Network Infra Branding" style="width: 100%; height: auto; display: block;">
-                  </div>
-                  <div class="project branding" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Hexa Branding" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (3).jpeg" alt="Health Branding" style="width: 100%; height: auto; display: block;">
                   </div>
                   
-                  <!-- Web Projects -->
+                  <!-- Video Productions Projects -->
                   <div class="project web" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Web Project 1" style="width: 100%; height: auto; display: block;">
+                      <video controls style="width: 100%; height: auto; display: block;">
+                          <source src="../wp-content/uploads/sites/59/2024/09/sample-video-1.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
                   </div>
                   <div class="project web" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Web Project 2" style="width: 100%; height: auto; display: block;">
+                      <video controls style="width: 100%; height: auto; display: block;">
+                          <source src="../wp-content/uploads/sites/59/2024/09/sample-video-2.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
                   </div>
                   <div class="project web" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Web Project 3" style="width: 100%; height: auto; display: block;">
+                      <video controls style="width: 100%; height: auto; display: block;">
+                          <source src="../wp-content/uploads/sites/59/2024/09/sample-video-3.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
                   </div>
                   
-                  <!-- Applications Projects -->
+                  <!-- Creatives Projects -->
                   <div class="project applications" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="App Project 1" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (1).jpeg" alt="Creative Project 1" style="width: 100%; height: auto; display: block;">
                   </div>
                   <div class="project applications" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="App Project 2" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (3).jpeg" alt="Creative Project 2" style="width: 100%; height: auto; display: block;">
                   </div>
                   <div class="project applications" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="App Project 3" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15.jpeg" alt="Creative Project 3" style="width: 100%; height: auto; display: block;">
                   </div>
                   
-                  <!-- Banner Projects -->
+                  <!-- Leads Results Projects -->
                   <div class="project banner" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Banner Project 1" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15.jpeg" alt="Leads Result 1" style="width: 100%; height: auto; display: block;">
+
                   </div>
                   <div class="project banner" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Banner Project 2" style="width: 100%; height: auto; display: block;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (1).jpeg" alt="Leads Result 2" style="width: 100%; height: auto; display: block;">
                   </div>
-                  
-                  <!-- Loyalty Partners Projects -->
-                  <div class="project loyalty" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Loyalty Project 1" style="width: 100%; height: auto; display: block;">
-                  </div>
-                  <div class="project loyalty" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
-                      <img src="/placeholder.svg?height=300&width=400" alt="Loyalty Project 2" style="width: 100%; height: auto; display: block;">
+                  <div class="project banner" style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: none;">
+                      <img src="../wp-content/uploads/sites/59/2024/09/WhatsApp Image 2025-04-14 at 11.08.15 (3).jpeg" alt="Leads Result 3" style="width: 100%; height: auto; display: block;">
                   </div>
               </div>
           </div>
-      
+          
+          <style>
+              @keyframes fadeIn {
+                  from { opacity: 0; transform: translateY(-10px); }
+                  to { opacity: 1; transform: translateY(0); }
+              }
+              
+              @keyframes slideUp {
+                  from { opacity: 0; transform: translateY(20px); }
+                  to { opacity: 1; transform: translateY(0); }
+              }
+              
+              .project {
+                  animation: slideUp 0.5s ease forwards;
+                  opacity: 0;
+              }
+              
+              /* Delay animations for grid items */
+              .project:nth-child(1) { animation-delay: 0.1s; }
+              .project:nth-child(2) { animation-delay: 0.2s; }
+              .project:nth-child(3) { animation-delay: 0.3s; }
+              .project:nth-child(4) { animation-delay: 0.4s; }
+              .project:nth-child(5) { animation-delay: 0.5s; }
+              .project:nth-child(6) { animation-delay: 0.6s; }
+          </style>
+          
           <script>
+              // Initialize with Branding projects shown by default
+              document.addEventListener('DOMContentLoaded', function() {
+                  filterProjects('branding');
+                  setActiveTab('branding-tab');
+              });
+          
               function filterProjects(category) {
-                  // Hide all projects
+                  const grid = document.getElementById('projects-grid');
+                  const leadsHeader = document.getElementById('leads-header');
+                  
+                  // Show/hide leads header
+                  if (category === 'banner') {
+                      leadsHeader.style.display = 'block';
+                  } else {
+                      leadsHeader.style.display = 'none';
+                  }
+                  
+                  // Change grid layout
+                  if (category === 'web') {
+                      grid.style.gridTemplateColumns = 'repeat(3, 1fr)';
+                  } else if (category === 'banner') {
+                      grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(350px, 1fr))';
+                  } else {
+                      grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
+                  }
+                  
+                  // Hide all projects and reset animations
                   const allProjects = document.querySelectorAll('.project');
                   allProjects.forEach(project => {
                       project.style.display = 'none';
+                      project.style.opacity = '0';
+                      project.style.animation = 'none';
+                      void project.offsetWidth; // Trigger reflow
+                      project.style.animation = 'slideUp 0.5s ease forwards';
                   });
                   
-                  // Show projects of selected category
+                  // Show projects of selected category with staggered animation
                   const selectedProjects = document.querySelectorAll(`.${category}`);
-                  selectedProjects.forEach(project => {
+                  selectedProjects.forEach((project, index) => {
                       project.style.display = 'block';
+                      project.style.animationDelay = `${index * 0.1}s`;
                   });
                   
-                  // Update active tab styling
+                  // Update active tab
+                  setActiveTab(`${category}-tab`);
+              }
+              
+              function setActiveTab(tabId) {
                   const allTabs = document.querySelectorAll('li');
                   allTabs.forEach(tab => {
                       tab.style.borderBottom = 'none';
+                      tab.style.fontWeight = 'normal';
+                      tab.style.color = '';
                   });
                   
-                  const activeTab = document.getElementById(`${category}-tab`);
+                  const activeTab = document.getElementById(tabId);
                   activeTab.style.borderBottom = '2px solid #333';
+                  activeTab.style.fontWeight = 'bold';
+                  activeTab.style.color = '#333';
               }
           </script>
             <!-- <div
